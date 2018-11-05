@@ -1,1 +1,1 @@
-"use strict";var input=$("input");
+"use strict";$("button").click(function(){console.log("选择文件")});
