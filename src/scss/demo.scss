@@ -1,0 +1,25 @@
+@import "_mixin.scss";
+@import "common.scss";
+* {
+    @include sizing;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    padding: 0 pxTorem(15px);
+}
+
+li {
+    width: 100%;
+    height: pxTorem(45px);
+    input {
+        width: 100%;
+    }
+}
